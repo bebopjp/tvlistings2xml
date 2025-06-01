@@ -11,6 +11,9 @@ on:
     # Publish semver tags as releases.
     tags: [ 'v*.*.*' ]
 
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 jobs:
   build:
 
