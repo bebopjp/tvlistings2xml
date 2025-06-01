@@ -3,7 +3,7 @@ FROM alpine:3
 ENV USERNAME=none
 ENV PASSWORD=none
 ENV OPT_ARGS=
-ENV URL_ROOT=
+ENV URL_ROOT=https://tvlistings.gracenote.com/
 
 ENV USERNAME2=none
 ENV PASSWORD2=none
