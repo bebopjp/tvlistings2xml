@@ -16,6 +16,7 @@ You can configure the following environment variables below:
 - PASSWORD - zap2it.com password
 
 ### Optional
+- URL_ROOT - override the default path to the tvlistings URL
 - OPT_ARGS - additional command line arguments for zap2xml
 - USERNAME2 - Second zap2it.com username
 - PASSWORD2 - Second zap2it.com password
