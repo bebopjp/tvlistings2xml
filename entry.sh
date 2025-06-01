@@ -10,7 +10,7 @@ do
 	mkdir -p /tmp/xmltv/sorted
 
 	echo "Run zap2xml.pl"
-	/zap2xml.pl -u $USERNAME -p $PASSWORD -U -o /tmp/xmltv/raws/1.xml -c cache1 $OPT_ARGS
+	/zap2xml.pl -u $USERNAME -p $PASSWORD -h $URL_ROOT -U -o /tmp/xmltv/raws/1.xml -c cache1 $OPT_ARGS
 
 	if [ $USERNAME2 = "none" ]
 	then
