@@ -49,7 +49,7 @@ $VERSION = "2018-12-01";
 print "zap2xml ($VERSION)\nCommand line: $0 " .  join(" ",@ARGV) . "\n";
 
 %options=();
-getopts("?aA:bB:c:C:d:DeE:Fgi:IjJ:l:Lm:Mn:N:o:Op:P:qRr:s:S:t:Tu:UwWxY:zZ:89",\%options);
+getopts("?aA:bB:c:C:d:DeE:Fghi:IjJ:l:Lm:Mn:N:o:Op:P:qRr:s:S:t:Tu:UwWxY:zZ:89",\%options);
 
 $homeDir = $ENV{HOME};
 $homeDir = $ENV{USERPROFILE} if !defined($homeDir);
