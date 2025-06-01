@@ -9,5 +9,6 @@ services:
     environment:
         - USERNAME=myemail@email.com
         - PASSWORD=**password**
+        - URL_ROOT=https://tvlistings.gracenote.com/
         - OPT_ARGS=-I -D
         - XMLTV_FILENAME=sports.xml
