@@ -19,7 +19,7 @@ do
 	else
 		# Run it again, sort, and merge the files
 		echo "Run zap2xml.pl for second user"
-		/zap2xml.pl -u ${USERNAME2} -p ${PASSWORD2} -U -o /tmp/xmltv/raws/2.xml -c cache2 $OPT_ARGS2
+		/zap2xml.pl -u ${USERNAME2} -p ${PASSWORD2} -h $URL_ROOT -U -o /tmp/xmltv/raws/2.xml -c cache2 $OPT_ARGS2
 		echo "Sorting both files"
 		tv_sort /tmp/xmltv/raws/1.xml --by-channel --output /tmp/xmltv/sorted/1.xml
 		tv_sort /tmp/xmltv/raws/2.xml --by-channel --output /tmp/xmltv/sorted/2.xml
